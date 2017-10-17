@@ -1,0 +1,49 @@
+c:\users\pc\documents\visual studio 2012\Projects\DS2017\DS2017\bin\Debug\DS2017.exe.config
+c:\users\pc\documents\visual studio 2012\Projects\DS2017\DS2017\bin\Debug\DS2017.exe
+c:\users\pc\documents\visual studio 2012\Projects\DS2017\DS2017\bin\Debug\DS2017.pdb
+c:\users\pc\documents\visual studio 2012\Projects\DS2017\DS2017\obj\Debug\DS2017.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2012\Projects\DS2017\DS2017\obj\Debug\DS2017.Empresa.frmEmpresa.resources
+c:\users\pc\documents\visual studio 2012\Projects\DS2017\DS2017\obj\Debug\DS2017.Properties.Resources.resources
+c:\users\pc\documents\visual studio 2012\Projects\DS2017\DS2017\obj\Debug\DS2017.csproj.GenerateResource.Cache
+c:\users\pc\documents\visual studio 2012\Projects\DS2017\DS2017\obj\Debug\DS2017.exe.licenses
+c:\users\pc\documents\visual studio 2012\Projects\DS2017\DS2017\obj\Debug\DS2017.exe
+c:\users\pc\documents\visual studio 2012\Projects\DS2017\DS2017\obj\Debug\DS2017.pdb
+c:\users\pc\documents\visual studio 2012\Projects\DS2017\DS2017\obj\Debug\DS2017.Empresa.Representante.frmRepresentante.resources
+c:\users\pc\documents\visual studio 2012\Projects\DS2017\DS2017\obj\Debug\DS2017.Direccion.frmCiudad.resources
+c:\users\pc\documents\visual studio 2012\Projects\DS2017\DS2017\obj\Debug\DS2017.Direccion.frmDireccion.resources
+c:\users\pc\documents\visual studio 2012\Projects\DS2017\DS2017\obj\Debug\DS2017.Direccion.frmElegirDireccion.resources
+c:\users\pc\documents\visual studio 2012\Projects\DS2017\DS2017\obj\Debug\DS2017.Empresa.frmElegirEmpresa.resources
+c:\users\pc\documents\visual studio 2012\Projects\DS2017\DS2017\obj\Debug\DS2017.Empresa.frmListarEmpresa.resources
+c:\users\pc\documents\visual studio 2012\Projects\DS2017\DS2017\obj\Debug\DS2017.Empresa.Representante.frmElegirRepresentante.resources
+c:\users\pc\documents\visual studio 2012\Projects\DS2017\DS2017\obj\Debug\DS2017.Piloto.frmElegirPiloto.resources
+c:\users\pc\documents\visual studio 2012\Projects\DS2017\DS2017\obj\Debug\DS2017.Piloto.frmPiloto.resources
+c:\users\pc\documents\visual studio 2012\Projects\DS2017\DS2017\obj\Debug\DS2017.Direccion.frmListarDireccion.resources
+c:\users\pc\documents\visual studio 2012\Projects\DS2017\DS2017\obj\Debug\DS2017.Empresa.Representante.frmListarRepresentante.resources
+c:\users\pc\documents\visual studio 2012\Projects\DS2017\DS2017\obj\Debug\DS2017.frmHome.resources
+c:\users\pc\documents\visual studio 2012\Projects\DS2017\DS2017\obj\Debug\DS2017.Piloto.frmListarPiloto.resources
+C:\Users\pc\Documents\Visual Studio 2012\Projects\DS2017\DS2017\obj\Debug\DS2017.Usuario.frmUsuario.resources
+C:\Users\Herman Avila\Desktop\DS2017\DS2017\bin\Debug\DS2017.exe.config
+C:\Users\Herman Avila\Desktop\DS2017\DS2017\obj\Debug\DS2017.exe
+C:\Users\Herman Avila\Desktop\DS2017\DS2017\obj\Debug\DS2017.pdb
+C:\Users\Herman Avila\Desktop\DS2017\DS2017\bin\Debug\DS2017.exe
+C:\Users\Herman Avila\Desktop\DS2017\DS2017\bin\Debug\DS2017.pdb
+C:\Users\Herman Avila\Desktop\DS2017\DS2017\obj\Debug\DS2017.csprojResolveAssemblyReference.cache
+C:\Users\Herman Avila\Desktop\DS2017\DS2017\obj\Debug\DS2017.Direccion.frmCiudad.resources
+C:\Users\Herman Avila\Desktop\DS2017\DS2017\obj\Debug\DS2017.Direccion.frmDireccion.resources
+C:\Users\Herman Avila\Desktop\DS2017\DS2017\obj\Debug\DS2017.Direccion.frmElegirDireccion.resources
+C:\Users\Herman Avila\Desktop\DS2017\DS2017\obj\Debug\DS2017.Direccion.frmListarDireccion.resources
+C:\Users\Herman Avila\Desktop\DS2017\DS2017\obj\Debug\DS2017.Empresa.frmElegirEmpresa.resources
+C:\Users\Herman Avila\Desktop\DS2017\DS2017\obj\Debug\DS2017.Empresa.frmEmpresa.resources
+C:\Users\Herman Avila\Desktop\DS2017\DS2017\obj\Debug\DS2017.Empresa.frmListarEmpresa.resources
+C:\Users\Herman Avila\Desktop\DS2017\DS2017\obj\Debug\DS2017.Empresa.Representante.frmElegirRepresentante.resources
+C:\Users\Herman Avila\Desktop\DS2017\DS2017\obj\Debug\DS2017.Empresa.Representante.frmListarRepresentante.resources
+C:\Users\Herman Avila\Desktop\DS2017\DS2017\obj\Debug\DS2017.Empresa.Representante.frmRepresentante.resources
+C:\Users\Herman Avila\Desktop\DS2017\DS2017\obj\Debug\DS2017.frmHome.resources
+C:\Users\Herman Avila\Desktop\DS2017\DS2017\obj\Debug\DS2017.Piloto.frmElegirPiloto.resources
+C:\Users\Herman Avila\Desktop\DS2017\DS2017\obj\Debug\DS2017.Piloto.frmListarPiloto.resources
+C:\Users\Herman Avila\Desktop\DS2017\DS2017\obj\Debug\DS2017.Piloto.frmPiloto.resources
+C:\Users\Herman Avila\Desktop\DS2017\DS2017\obj\Debug\DS2017.Properties.Resources.resources
+C:\Users\Herman Avila\Desktop\DS2017\DS2017\obj\Debug\DS2017.Usuario.frmDatosUsuario.resources
+C:\Users\Herman Avila\Desktop\DS2017\DS2017\obj\Debug\DS2017.Usuario.frmUsuario.resources
+C:\Users\Herman Avila\Desktop\DS2017\DS2017\obj\Debug\DS2017.csproj.GenerateResource.Cache
+C:\Users\Herman Avila\Desktop\DS2017\DS2017\obj\Debug\DS2017.exe.licenses

@@ -1,0 +1,60 @@
+instrucciones:
+
+se crearan lineas nuevas por fallas encontradas con identificador
+como -->  falla  <-- 
+
+
+si el problema esta resuelto se cambiara el identificador a
+--> Resuelto <--
+
+tambien es valido:
+
+--> idea <--
+--> opinion <--
+
+--------------------------------------------------------------------
+			Base de Datos
+
+--------------------------------------------------------------------
+
+-->  falla  <-- 
+		hay tablas donde se solicita el telefono 
+		con tipo de dato como int 
+		es mejor nvarchar porque el entero tiene una longitud
+		o cantidad maxima y tendremos errores despues a la 
+		hora de ingresar datos.
+
+-->  falla  <-- 
+		PARA USAR MAPAS ES NECESARIO CREAR UNA NUEVA TABLA 
+		QUE LLEVARA EL CONTROL DE LOS PUNTOS O ESQUNAS QUE 
+		TENDRA LA RUTA CON LOS DATOS 
+		VER EN LA CARPETA IMAGE
+		1.PNG (ref)
+		CON LA RELACION
+		2.PNG (ref)
+
+
+
+
+--------------------------------------------------------------------
+			Escritorio
+
+--------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------
+			web
+
+--------------------------------------------------------------------
+
+
+
+
