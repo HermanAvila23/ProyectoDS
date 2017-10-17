@@ -47,3 +47,6 @@ C:\Users\Herman Avila\Desktop\DS2017\DS2017\obj\Debug\DS2017.Usuario.frmDatosUsu
 C:\Users\Herman Avila\Desktop\DS2017\DS2017\obj\Debug\DS2017.Usuario.frmUsuario.resources
 C:\Users\Herman Avila\Desktop\DS2017\DS2017\obj\Debug\DS2017.csproj.GenerateResource.Cache
 C:\Users\Herman Avila\Desktop\DS2017\DS2017\obj\Debug\DS2017.exe.licenses
+C:\Users\Herman Avila\Documents\GitHub\ProyectoDS\DS2017\DS2017\bin\Debug\DS2017.exe.config
+C:\Users\Herman Avila\Documents\GitHub\ProyectoDS\DS2017\DS2017\obj\Debug\DS2017.exe
+C:\Users\Herman Avila\Documents\GitHub\ProyectoDS\DS2017\DS2017\obj\Debug\DS2017.pdb
