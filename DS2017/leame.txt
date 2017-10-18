@@ -41,8 +41,18 @@ tambien es valido:
 
 --------------------------------------------------------------------
 
+-->  agregado  <-- 
 
-
+		se agrego un ejemplo de como acceder a un item de los menu
+		
+		esta en frmEmpresa
+		
+		-libreria necesaria
+	using DevExpress.XtraBars.Docking2010;	
+		
+		-ejemplo del codigo
+			ver en la carpeta IMAGE
+			3.png
 
 
 

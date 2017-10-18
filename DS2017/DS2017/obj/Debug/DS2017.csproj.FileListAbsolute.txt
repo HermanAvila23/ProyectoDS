@@ -50,3 +50,6 @@ C:\Users\Herman Avila\Desktop\DS2017\DS2017\obj\Debug\DS2017.exe.licenses
 C:\Users\Herman Avila\Documents\GitHub\ProyectoDS\DS2017\DS2017\bin\Debug\DS2017.exe.config
 C:\Users\Herman Avila\Documents\GitHub\ProyectoDS\DS2017\DS2017\obj\Debug\DS2017.exe
 C:\Users\Herman Avila\Documents\GitHub\ProyectoDS\DS2017\DS2017\obj\Debug\DS2017.pdb
+C:\Users\pc\Documents\GitHub\ProyectoDS\DS2017\DS2017\bin\Debug\DS2017.exe.config
+C:\Users\pc\Documents\GitHub\ProyectoDS\DS2017\DS2017\obj\Debug\DS2017.exe
+C:\Users\pc\Documents\GitHub\ProyectoDS\DS2017\DS2017\obj\Debug\DS2017.pdb

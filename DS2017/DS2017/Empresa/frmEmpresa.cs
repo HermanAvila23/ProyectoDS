@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 
+//para el menu
+using DevExpress.XtraBars.Docking2010;
+
 namespace DS2017.Empresa
 {
     public partial class frmEmpresa : DevExpress.XtraEditors.XtraForm
@@ -40,6 +43,36 @@ namespace DS2017.Empresa
         {
             Direccion.frmElegirDireccion seleccionardireccion = new Direccion.frmElegirDireccion();
             seleccionardireccion.ShowDialog();
+        }
+
+
+
+
+
+
+
+        //ejemplo para el menu
+        //es un evento BottonClick
+        //no el click
+        private void windowsUIButtonPanel2_ButtonClick(object sender, DevExpress.XtraBars.Docking2010.ButtonEventArgs e)
+        {
+            string tag = ((WindowsUIButton)e.Button).Tag.ToString();
+            switch (tag)
+            {
+                case "Guardar":
+
+                   
+                    break;
+                case "Guardar y Salir":
+                    
+                    break;
+                case "Limpiar":
+                    
+                    break;
+                case "Salir":
+                    this.Close();
+                    break;
+            }
         }
     }
 }
