@@ -209,7 +209,6 @@
             this.textEdit5.Location = new System.Drawing.Point(326, 138);
             this.textEdit5.Name = "textEdit5";
             this.textEdit5.Size = new System.Drawing.Size(51, 22);
-            this.textEdit5.StyleController = this.layoutControl1;
             this.textEdit5.TabIndex = 8;
             // 
             // textEdit4
@@ -217,7 +216,6 @@
             this.textEdit4.Location = new System.Drawing.Point(140, 138);
             this.textEdit4.Name = "textEdit4";
             this.textEdit4.Size = new System.Drawing.Size(71, 22);
-            this.textEdit4.StyleController = this.layoutControl1;
             this.textEdit4.TabIndex = 7;
             // 
             // textEdit3
@@ -225,7 +223,6 @@
             this.textEdit3.Location = new System.Drawing.Point(140, 110);
             this.textEdit3.Name = "textEdit3";
             this.textEdit3.Size = new System.Drawing.Size(237, 22);
-            this.textEdit3.StyleController = this.layoutControl1;
             this.textEdit3.TabIndex = 6;
             conditionValidationRule3.ConditionOperator = DevExpress.XtraEditors.DXErrorProvider.ConditionOperator.IsNotBlank;
             conditionValidationRule3.ErrorText = "Campo Vacio";
@@ -236,7 +233,6 @@
             this.textEdit2.Location = new System.Drawing.Point(140, 82);
             this.textEdit2.Name = "textEdit2";
             this.textEdit2.Size = new System.Drawing.Size(237, 22);
-            this.textEdit2.StyleController = this.layoutControl1;
             this.textEdit2.TabIndex = 5;
             conditionValidationRule4.ConditionOperator = DevExpress.XtraEditors.DXErrorProvider.ConditionOperator.IsNotBlank;
             conditionValidationRule4.ErrorText = "Campo Vacio";
@@ -247,7 +243,6 @@
             this.textEdit1.Location = new System.Drawing.Point(140, 54);
             this.textEdit1.Name = "textEdit1";
             this.textEdit1.Size = new System.Drawing.Size(237, 22);
-            this.textEdit1.StyleController = this.layoutControl1;
             this.textEdit1.TabIndex = 4;
             conditionValidationRule5.ConditionOperator = DevExpress.XtraEditors.DXErrorProvider.ConditionOperator.IsNotBlank;
             conditionValidationRule5.ErrorText = "Campo Vacio";
@@ -261,7 +256,7 @@
             this.layoutControlGroup2,
             this.layoutControlGroup3});
             this.layoutControlGroup1.Location = new System.Drawing.Point(0, 0);
-            this.layoutControlGroup1.Name = "layoutControlGroup1";
+            this.layoutControlGroup1.Name = "Root";
             this.layoutControlGroup1.OptionsItemText.TextToControlDistance = 4;
             this.layoutControlGroup1.Size = new System.Drawing.Size(408, 310);
             this.layoutControlGroup1.TextVisible = false;

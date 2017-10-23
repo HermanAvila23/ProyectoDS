@@ -195,7 +195,7 @@
             // 
             // windowsUIButtonPanel2
             // 
-            this.windowsUIButtonPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(30)))), ((int)(((byte)(40)))));
+            this.windowsUIButtonPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.windowsUIButtonPanel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             windowsUIButtonImageOptions1.Image = ((System.Drawing.Image)(resources.GetObject("windowsUIButtonImageOptions1.Image")));
             windowsUIButtonImageOptions2.Image = ((System.Drawing.Image)(resources.GetObject("windowsUIButtonImageOptions2.Image")));
@@ -212,7 +212,7 @@
             this.windowsUIButtonPanel2.CausesValidation = true;
             this.windowsUIButtonPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.windowsUIButtonPanel2.EnableImageTransparency = true;
-            this.windowsUIButtonPanel2.ForeColor = System.Drawing.Color.White;
+            this.windowsUIButtonPanel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(30)))), ((int)(((byte)(40)))));
             this.windowsUIButtonPanel2.Location = new System.Drawing.Point(2, 2);
             this.windowsUIButtonPanel2.Name = "windowsUIButtonPanel2";
             this.windowsUIButtonPanel2.Size = new System.Drawing.Size(408, 73);
@@ -786,7 +786,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(401, 42);
             this.button3.TabIndex = 8;
-            this.button3.Text = "Elegir";
+            this.button3.Text = "Crear Nuevo";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -797,7 +797,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(401, 38);
             this.button4.TabIndex = 7;
-            this.button4.Text = "Nuevo";
+            this.button4.Text = "Elegir Existente";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
