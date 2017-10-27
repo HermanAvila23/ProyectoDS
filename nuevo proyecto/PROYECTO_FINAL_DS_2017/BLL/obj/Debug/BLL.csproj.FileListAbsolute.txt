@@ -1,0 +1,7 @@
+c:\users\pc\documents\visual studio 2012\Projects\PROYECTO_FINAL_DS_2017\BLL\bin\Debug\BLL.dll
+c:\users\pc\documents\visual studio 2012\Projects\PROYECTO_FINAL_DS_2017\BLL\bin\Debug\BLL.pdb
+c:\users\pc\documents\visual studio 2012\Projects\PROYECTO_FINAL_DS_2017\BLL\bin\Debug\DAL.dll
+c:\users\pc\documents\visual studio 2012\Projects\PROYECTO_FINAL_DS_2017\BLL\bin\Debug\DAL.pdb
+c:\users\pc\documents\visual studio 2012\Projects\PROYECTO_FINAL_DS_2017\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2012\Projects\PROYECTO_FINAL_DS_2017\BLL\obj\Debug\BLL.dll
+c:\users\pc\documents\visual studio 2012\Projects\PROYECTO_FINAL_DS_2017\BLL\obj\Debug\BLL.pdb
