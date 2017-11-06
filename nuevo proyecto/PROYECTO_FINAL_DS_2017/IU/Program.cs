@@ -16,7 +16,7 @@ namespace IU
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Empleado.frm_empleado());
+            Application.Run(new Empresa.frm_c_empresa());
         }
     }
 }

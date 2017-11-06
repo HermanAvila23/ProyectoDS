@@ -17,10 +17,23 @@ namespace BLL
 
 
        //datos del usuario
-       private static string usuario_id;
-       private static string usuario_tipo;
-       private static string usuario_datosId;
+       private static string usuario_id="USU-0001";
+       private static string usuario_tipo="Administrador";
+       private static string usuario_datosId="EMP-0001";
 
+
+
+       //mapa punto
+       public static double latitud;
+       public static double longitud;
+       public static bool listo;
+
+       #region control
+       //control para usuario
+       
+       #endregion
+
+       #region propiedades
        public static string USUARIO_DATOSID
        {
            get { return ClassGeneral.usuario_datosId; }
@@ -39,7 +52,7 @@ namespace BLL
            get { return ClassGeneral.usuario_tipo; }
            set { ClassGeneral.usuario_tipo = value; }
        }
-
+       #endregion
 
 
        //para agregar el correlativo al nuevo id

@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetComun" targetNamespace="http://tempuri.org/DataSetComun.xsd" xmlns:mstns="http://tempuri.org/DataSetComun.xsd" xmlns="http://tempuri.org/DataSetComun.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="PROYECTO_DSConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="PROYECTO_DSConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DAL.Properties.Settings.GlobalReference.Default.PROYECTO_DSConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DEPARTAMENTOTableAdapter" GeneratorDataComponentClassName="DEPARTAMENTOTableAdapter" Name="DEPARTAMENTO" UserDataComponentName="DEPARTAMENTOTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="PROYECTO_DSConnectionString (Settings)" DbObjectName="PROYECTO_DS.dbo.DEPARTAMENTO" DbObjectType="Table" GenerateMethods="Get" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="GetData">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT ID_DEPARTAMENTO AS Id, NOMBRE_DEPARTAMENTO AS Departamento, LONGITUD as Longitud, LATITUD as Latitud
+FROM     DEPARTAMENTO</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Id" DataSetColumn="Id" />
+              <Mapping SourceColumn="Departamento" DataSetColumn="Departamento" />
+              <Mapping SourceColumn="Longitud" DataSetColumn="Longitud" />
+              <Mapping SourceColumn="Latitud" DataSetColumn="Latitud" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="MUNICIPIOTableAdapter" GeneratorDataComponentClassName="MUNICIPIOTableAdapter" Name="MUNICIPIO" UserDataComponentName="MUNICIPIOTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="PROYECTO_DSConnectionString (Settings)" DbObjectName="PROYECTO_DS.dbo.MUNICIPIO" DbObjectType="Table" GenerateMethods="Get" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="GetData">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT ID_MUNICIPIO AS Id, NOMBRE_MUNICIPIO AS Municipio, ID_DEPARTAMENTO AS Id_Departamento
+FROM     MUNICIPIO</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Id" DataSetColumn="Id" />
+              <Mapping SourceColumn="Municipio" DataSetColumn="Municipio" />
+              <Mapping SourceColumn="Id_Departamento" DataSetColumn="Id_Departamento" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="PROYECTO_DSConnectionString (Settings)" DbObjectName="PROYECTO_DS.dbo.MUNICIPIO" DbObjectType="Table" GenerateMethods="Get" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBylistarPordepar" GetMethodModifier="Public" GetMethodName="GetDataBylistarPordepar" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBylistarPordepar" UserSourceName="GetDataBylistarPordepar">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT ID_MUNICIPIO AS Id, NOMBRE_MUNICIPIO AS Municipio, ID_DEPARTAMENTO AS Id_Departamento
+FROM     MUNICIPIO
+WHERE  (ID_DEPARTAMENTO = @id_dep)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="id_dep" ColumnName="ID_DEPARTAMENTO" DataSourceName="PROYECTO_DS.dbo.MUNICIPIO" DataTypeServer="nvarchar(50)" DbType="String" Direction="Input" ParameterName="@id_dep" Precision="0" ProviderType="NVarChar" Scale="0" Size="50" SourceColumn="Id_Departamento" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vista_municipio_departamentoTableAdapter" GeneratorDataComponentClassName="vista_municipio_departamentoTableAdapter" Name="vista_municipio_departamento" UserDataComponentName="vista_municipio_departamentoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="PROYECTO_DSConnectionString (Settings)" DbObjectType="Unknown" GenerateMethods="Get" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="GetData">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT DEPARTAMENTO.ID_DEPARTAMENTO AS Id_Departamento, MUNICIPIO.ID_MUNICIPIO AS Id_Municipio, DEPARTAMENTO.NOMBRE_DEPARTAMENTO AS Departamento, 
+                  MUNICIPIO.NOMBRE_MUNICIPIO AS Municipio, DEPARTAMENTO.LONGITUD AS Longitud, DEPARTAMENTO.LATITUD AS Latitud
+FROM     DEPARTAMENTO INNER JOIN
+                  MUNICIPIO ON DEPARTAMENTO.ID_DEPARTAMENTO = MUNICIPIO.ID_DEPARTAMENTO</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Id_Departamento" DataSetColumn="Id_Departamento" />
+              <Mapping SourceColumn="Id_Municipio" DataSetColumn="Id_Municipio" />
+              <Mapping SourceColumn="Departamento" DataSetColumn="Departamento" />
+              <Mapping SourceColumn="Municipio" DataSetColumn="Municipio" />
+              <Mapping SourceColumn="Longitud" DataSetColumn="Longitud" />
+              <Mapping SourceColumn="Latitud" DataSetColumn="Latitud" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="PROYECTO_DSConnectionString (Settings)" DbObjectName="PROYECTO_DS.dbo.PS_MUNICIPIO_DEPARTAMENTO" DbObjectType="StoredProcedure" GenerateMethods="Get" GenerateShortCommands="true" GeneratorGetMethodName="GetDataBySeleccionarMuni_depart" GetMethodModifier="Public" GetMethodName="GetDataBySeleccionarMuni_depart" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBySeleccionarMuni_depart" UserSourceName="GetDataBySeleccionarMuni_depart">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.PS_MUNICIPIO_DEPARTAMENTO</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="nvarchar" DbType="String" Direction="Input" ParameterName="@id_mun" Precision="0" ProviderType="NVarChar" Scale="0" Size="50" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetComun" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetComun" msprop:Generator_UserDSName="DataSetComun">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DEPARTAMENTO" msprop:Generator_TableClassName="DEPARTAMENTODataTable" msprop:Generator_TableVarName="tableDEPARTAMENTO" msprop:Generator_TablePropName="DEPARTAMENTO" msprop:Generator_RowDeletingName="DEPARTAMENTORowDeleting" msprop:Generator_RowChangingName="DEPARTAMENTORowChanging" msprop:Generator_RowEvHandlerName="DEPARTAMENTORowChangeEventHandler" msprop:Generator_RowDeletedName="DEPARTAMENTORowDeleted" msprop:Generator_UserTableName="DEPARTAMENTO" msprop:Generator_RowChangedName="DEPARTAMENTORowChanged" msprop:Generator_RowEvArgName="DEPARTAMENTORowChangeEvent" msprop:Generator_RowClassName="DEPARTAMENTORow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Departamento" msprop:Generator_ColumnVarNameInTable="columnDepartamento" msprop:Generator_ColumnPropNameInRow="Departamento" msprop:Generator_ColumnPropNameInTable="DepartamentoColumn" msprop:Generator_UserColumnName="Departamento">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Longitud" msprop:Generator_ColumnVarNameInTable="columnLongitud" msprop:Generator_ColumnPropNameInRow="Longitud" msprop:Generator_ColumnPropNameInTable="LongitudColumn" msprop:Generator_UserColumnName="Longitud" type="xs:double" />
+              <xs:element name="Latitud" msprop:Generator_ColumnVarNameInTable="columnLatitud" msprop:Generator_ColumnPropNameInRow="Latitud" msprop:Generator_ColumnPropNameInTable="LatitudColumn" msprop:Generator_UserColumnName="Latitud" type="xs:double" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MUNICIPIO" msprop:Generator_TableClassName="MUNICIPIODataTable" msprop:Generator_TableVarName="tableMUNICIPIO" msprop:Generator_TablePropName="MUNICIPIO" msprop:Generator_RowDeletingName="MUNICIPIORowDeleting" msprop:Generator_RowChangingName="MUNICIPIORowChanging" msprop:Generator_RowEvHandlerName="MUNICIPIORowChangeEventHandler" msprop:Generator_RowDeletedName="MUNICIPIORowDeleted" msprop:Generator_UserTableName="MUNICIPIO" msprop:Generator_RowChangedName="MUNICIPIORowChanged" msprop:Generator_RowEvArgName="MUNICIPIORowChangeEvent" msprop:Generator_RowClassName="MUNICIPIORow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Municipio" msprop:Generator_ColumnVarNameInTable="columnMunicipio" msprop:Generator_ColumnPropNameInRow="Municipio" msprop:Generator_ColumnPropNameInTable="MunicipioColumn" msprop:Generator_UserColumnName="Municipio">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Id_Departamento" msprop:Generator_ColumnVarNameInTable="columnId_Departamento" msprop:Generator_ColumnPropNameInRow="Id_Departamento" msprop:Generator_ColumnPropNameInTable="Id_DepartamentoColumn" msprop:Generator_UserColumnName="Id_Departamento">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="vista_municipio_departamento" msprop:Generator_TableClassName="vista_municipio_departamentoDataTable" msprop:Generator_TableVarName="tablevista_municipio_departamento" msprop:Generator_TablePropName="vista_municipio_departamento" msprop:Generator_RowDeletingName="vista_municipio_departamentoRowDeleting" msprop:Generator_RowChangingName="vista_municipio_departamentoRowChanging" msprop:Generator_RowEvHandlerName="vista_municipio_departamentoRowChangeEventHandler" msprop:Generator_RowDeletedName="vista_municipio_departamentoRowDeleted" msprop:Generator_UserTableName="vista_municipio_departamento" msprop:Generator_RowChangedName="vista_municipio_departamentoRowChanged" msprop:Generator_RowEvArgName="vista_municipio_departamentoRowChangeEvent" msprop:Generator_RowClassName="vista_municipio_departamentoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id_Departamento" msprop:Generator_ColumnVarNameInTable="columnId_Departamento" msprop:Generator_ColumnPropNameInRow="Id_Departamento" msprop:Generator_ColumnPropNameInTable="Id_DepartamentoColumn" msprop:Generator_UserColumnName="Id_Departamento">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Id_Municipio" msprop:Generator_ColumnVarNameInTable="columnId_Municipio" msprop:Generator_ColumnPropNameInRow="Id_Municipio" msprop:Generator_ColumnPropNameInTable="Id_MunicipioColumn" msprop:Generator_UserColumnName="Id_Municipio">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Departamento" msprop:Generator_ColumnVarNameInTable="columnDepartamento" msprop:Generator_ColumnPropNameInRow="Departamento" msprop:Generator_ColumnPropNameInTable="DepartamentoColumn" msprop:Generator_UserColumnName="Departamento">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Municipio" msprop:Generator_ColumnVarNameInTable="columnMunicipio" msprop:Generator_ColumnPropNameInRow="Municipio" msprop:Generator_ColumnPropNameInTable="MunicipioColumn" msprop:Generator_UserColumnName="Municipio">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Longitud" msprop:Generator_ColumnVarNameInTable="columnLongitud" msprop:Generator_ColumnPropNameInRow="Longitud" msprop:Generator_ColumnPropNameInTable="LongitudColumn" msprop:Generator_UserColumnName="Longitud" type="xs:double" />
+              <xs:element name="Latitud" msprop:Generator_ColumnVarNameInTable="columnLatitud" msprop:Generator_ColumnPropNameInRow="Latitud" msprop:Generator_ColumnPropNameInTable="LatitudColumn" msprop:Generator_UserColumnName="Latitud" type="xs:double" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DEPARTAMENTO" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="MUNICIPIO_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:MUNICIPIO" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="vista_municipio_departamento_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:vista_municipio_departamento" />
+      <xs:field xpath="mstns:Id_Departamento" />
+      <xs:field xpath="mstns:Id_Municipio" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

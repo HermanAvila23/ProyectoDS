@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using BLL;
+using DevExpress.XtraBars.Docking2010;
 
 namespace IU.USUARIO
 {
@@ -21,51 +22,67 @@ namespace IU.USUARIO
 
         private void panel2_Resize(object sender, EventArgs e)
         {
-            panel8.Width = 381;
         }
-        ClassUSUARIO AccesoUsuario = new ClassUSUARIO();
+        ClassUSUARIO clsUsuario = new ClassUSUARIO();
+        bool resultado;
+        string mensaje;
         private void FRM_USUARIO_Load(object sender, EventArgs e)
         {
-            lookUpEdit1.Properties.DataSource = AccesoUsuario.listarTipos();
-            lookUpEdit1.Properties.DisplayMember = "Tipo";
-            lookUpEdit1.Properties.ValueMember = "Id";
-
-                DataTable tabla = new DataTable();
-                //usuario 
-                string id_datos = "";
-                tabla = AccesoUsuario.seleccionarUsuario();
-                foreach (DataRow f in tabla.Rows)
-                {
-                    textEdit6.Text = f[1].ToString();
-                    textEdit7.Text = f[2].ToString();         
-                    lookUpEdit1.EditValue = f[3].ToString();
-                    id_datos = f[4].ToString();
-                }
-                //datos
-                 tabla = new DataTable();
-                 AccesoUsuario.ID_DATOS = id_datos;
-                tabla = AccesoUsuario.seleccionarDatosUsuario();
-                foreach (DataRow f in tabla.Rows)
-                {
-                    textEdit1.Text = f[1].ToString();
-                    textEdit2.Text = f[2].ToString();
-                    textEdit3.Text = f[3].ToString();
-                    textEdit4.Text = f[4].ToString();
-                    textEdit5.Text = f[5].ToString();
-                }
+            clsUsuario.ID_DATOS = BLL.ClassGeneral.USUARIO_DATOSID;
+            clsUsuario.ID_USUARIO = BLL.ClassGeneral.USUARIO_ID;
+            BLL.ClassGeneral.tipo_operacion = "Ver Usuario";
+            usuario1.llenar_datos();
+            datos_usuario_label1.llenar_datos();
         }
 
-        protected void vista()
-        {
-
-        }
         
         private void button1_Click(object sender, EventArgs e)
         {
-
+            windowsUIButtonPanel1.Buttons[0].Properties.Visible = true;
+            windowsUIButtonPanel1.Buttons[1].Properties.Visible = true;
+            BLL.ClassGeneral.tipo_operacion = "Modificar Usuario";
+            usuario1.llenar_datos();
+            simpleButton1.Enabled = false;
+            mensaje = "Modificado Exitosamente";
         }
 
         private void textEdit1_KeyDown(object sender, KeyEventArgs e)
+        {
+        }
+
+        private void windowsUIButtonPanel1_ButtonClick(object sender, DevExpress.XtraBars.Docking2010.ButtonEventArgs e)
+        {
+             string tag = ((WindowsUIButton)e.Button).Tag.ToString();
+            switch (tag)
+            {
+                case "Guardar":
+                    if(usuario1.LISTO)
+                        resultado = usuario1.ingreso();
+                    
+                    if(resultado)
+                    {alertControl1.Show(this, "Aviso", mensaje, Properties.Resources.Apply_32x32);
+                    volver();
+                    }
+                    else
+                    alertControl1.Show(this, "Aviso","Error Al Guardar", Properties.Resources.Cancel_32x32);
+
+                    break;
+                case "Cancelar":
+
+                    volver();
+                    break;
+            }
+    
+        }
+        protected void volver()
+        {
+            windowsUIButtonPanel1.Buttons[0].Properties.Visible = false;
+            windowsUIButtonPanel1.Buttons[1].Properties.Visible = false;
+            BLL.ClassGeneral.tipo_operacion = "Ver Usuario";
+            usuario1.llenar_datos();
+            simpleButton1.Enabled = true;
+        }
+        private void backstageViewTabItem1_SelectedChanged(object sender, DevExpress.XtraBars.Ribbon.BackstageViewItemEventArgs e)
         {
         }
     }

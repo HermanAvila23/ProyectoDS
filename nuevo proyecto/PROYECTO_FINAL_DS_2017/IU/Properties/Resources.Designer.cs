@@ -63,6 +63,16 @@ namespace IU.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Action_Close_32x32 {
+            get {
+                object obj = ResourceManager.GetObject("Action_Close_32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Apply_32x32 {
             get {
                 object obj = ResourceManager.GetObject("Apply_32x32", resourceCulture);

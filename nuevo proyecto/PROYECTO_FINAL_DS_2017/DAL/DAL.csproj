@@ -40,6 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataSetComun.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetComun.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DataSetUsuario.cs">
       <DependentUpon>DataSetUsuario.xsd</DependentUpon>
       <SubType>Component</SubType>
@@ -58,6 +63,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="DataSetComun.xsc">
+      <DependentUpon>DataSetComun.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetComun.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetComun.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetComun.xss">
+      <DependentUpon>DataSetComun.xsd</DependentUpon>
+    </None>
     <None Include="DataSetUsuario.xsc">
       <DependentUpon>DataSetUsuario.xsd</DependentUpon>
     </None>

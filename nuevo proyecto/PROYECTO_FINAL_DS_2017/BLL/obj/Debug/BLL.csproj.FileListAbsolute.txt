@@ -5,3 +5,10 @@ c:\users\pc\documents\visual studio 2012\Projects\PROYECTO_FINAL_DS_2017\BLL\bin
 c:\users\pc\documents\visual studio 2012\Projects\PROYECTO_FINAL_DS_2017\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 c:\users\pc\documents\visual studio 2012\Projects\PROYECTO_FINAL_DS_2017\BLL\obj\Debug\BLL.dll
 c:\users\pc\documents\visual studio 2012\Projects\PROYECTO_FINAL_DS_2017\BLL\obj\Debug\BLL.pdb
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\BLL\bin\Debug\BLL.dll
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\BLL\bin\Debug\BLL.pdb
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\BLL\bin\Debug\DAL.dll
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\BLL\bin\Debug\DAL.pdb
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\BLL\obj\Debug\BLL.dll
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\BLL\obj\Debug\BLL.pdb

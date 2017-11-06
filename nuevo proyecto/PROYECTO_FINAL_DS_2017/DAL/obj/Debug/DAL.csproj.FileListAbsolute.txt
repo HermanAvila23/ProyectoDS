@@ -4,3 +4,9 @@ c:\users\pc\documents\visual studio 2012\Projects\PROYECTO_FINAL_DS_2017\DAL\obj
 c:\users\pc\documents\visual studio 2012\Projects\PROYECTO_FINAL_DS_2017\DAL\obj\Debug\DAL.dll
 c:\users\pc\documents\visual studio 2012\Projects\PROYECTO_FINAL_DS_2017\DAL\obj\Debug\DAL.pdb
 C:\Users\pc\Documents\Visual Studio 2012\Projects\PROYECTO_FINAL_DS_2017\DAL\bin\Debug\DAL.dll.config
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\DAL\bin\Debug\DAL.dll.config
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\DAL\bin\Debug\DAL.dll
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\DAL\bin\Debug\DAL.pdb
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\DAL\obj\Debug\DAL.dll
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\DAL\obj\Debug\DAL.pdb

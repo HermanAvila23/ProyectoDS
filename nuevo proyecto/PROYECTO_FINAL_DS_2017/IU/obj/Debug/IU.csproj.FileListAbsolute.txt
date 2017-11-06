@@ -17,3 +17,34 @@ C:\Users\pc\Documents\Visual Studio 2012\Projects\PROYECTO_FINAL_DS_2017\IU\bin\
 C:\Users\pc\Documents\Visual Studio 2012\Projects\PROYECTO_FINAL_DS_2017\IU\obj\Debug\IU.Empleado.Empleado.resources
 C:\Users\pc\Documents\Visual Studio 2012\Projects\PROYECTO_FINAL_DS_2017\IU\obj\Debug\IU.Empleado.frm_empleado.resources
 C:\Users\pc\Documents\Visual Studio 2012\Projects\PROYECTO_FINAL_DS_2017\IU\obj\Debug\IU.WaitForm1.resources
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\IU\bin\Debug\IU.exe.config
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\IU\obj\Debug\IU.exe
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\IU\obj\Debug\IU.pdb
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\IU\bin\Debug\IU.exe
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\IU\bin\Debug\IU.pdb
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\IU\bin\Debug\BLL.dll
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\IU\bin\Debug\DAL.dll
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\IU\bin\Debug\BLL.pdb
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\IU\bin\Debug\DAL.pdb
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\IU\obj\Debug\IU.csprojResolveAssemblyReference.cache
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\IU\obj\Debug\IU.Empleado.Empleado.resources
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\IU\obj\Debug\IU.Empleado.frm_empleado.resources
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\IU\obj\Debug\IU.FRM_HOME.resources
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\IU\obj\Debug\IU.Properties.Resources.resources
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\IU\obj\Debug\IU.USUARIO.FRM_USUARIO.resources
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\IU\obj\Debug\IU.csproj.GenerateResource.Cache
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\IU\obj\Debug\IU.exe.licenses
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\IU\obj\Debug\IU.USUARIO.frm_c_usuario.resources
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\IU\obj\Debug\IU.USUARIO.usuario.resources
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\IU\obj\Debug\IU.USUARIO.Datos_usuario_label.resources
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\IU\obj\Debug\IU.Empleado.frm_c_empleado.resources
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\IU\obj\Debug\IU.Comun.departamento_municipio.resources
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\IU\bin\Debug\Comun\Empleado.resx
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\IU\bin\Debug\Comun\Empleado.cs
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\IU\bin\Debug\Comun\Empleado.Designer.cs
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\IU\obj\Debug\IU.Comun.ubicacion.resources
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\IU\obj\Debug\IU.Empresa.frm_c_empresa.resources
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\IU\obj\Debug\progra6_final.Ubicacion.frm_mapa.resources
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\IU\obj\Debug\IU.Ubicacion.ubicacion.resources
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\IU\bin\Debug\GMap.NET.Core.dll
+C:\Users\pc\Documents\GitHub\ProyectoDS\nuevo proyecto\PROYECTO_FINAL_DS_2017\IU\bin\Debug\GMap.NET.WindowsForms.dll
