@@ -1,0 +1,15 @@
+C:\Users\medvar\Documents\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\medvar\Documents\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\medvar\Documents\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\medvar\Documents\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\medvar\Documents\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\medvar\Documents\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\medvar\Documents\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\medvar\Documents\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\medvar\Documents\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.ResolveComReference.cache
+C:\Users\medvar\Documents\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\medvar\Documents\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\medvar\Documents\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\medvar\Documents\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\medvar\Documents\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\medvar\Documents\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe.licenses
